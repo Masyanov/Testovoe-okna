@@ -649,11 +649,15 @@ html {
         justify-content: center;
         text-align: center;
     }
+    .footer_right-top {
+        height: 200px;
+    }
     .footer_right-bottom {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: space-between;
+        height: 120px;
     }
     .copy {
         margin-right: 0px;
@@ -818,7 +822,7 @@ html {
     }
     .align-center {
         display: flex;
-        height: 100%;
+        height: 150px;
         align-items: center;
         justify-content: center;
     }
@@ -856,11 +860,15 @@ html {
         text-align: center;
         margin-left: 20px;
     }
+    .footer_right-top {
+        height: 120px;
+    }
     .footer_right-bottom {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        height: 120px;
     }
     .copy {
         margin-right: 0px;
@@ -943,6 +951,9 @@ html {
     }
     .footer_tel {
         font-size: 18px;
+    }
+    .align-center {
+        height: 150px;
     }
 
 }
