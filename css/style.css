@@ -591,10 +591,10 @@ html {
         padding: 50px 10px;
     }
     .main_slideshow-right {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        background: linear-gradient(90deg, rgba(145,99,10,1) 50%, rgba(255,255,255,1) 50%);
+        display: none;
+    }
+    .main_slideshow-center {
+        display: none;
     }
     .main_slideshow-line {
         width: 35px;
@@ -672,6 +672,9 @@ html {
         display: flex;
         justify-content: center;
         align-content: center;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        display: none !important;
     }
 }
 
@@ -802,9 +805,13 @@ html {
     }
     
     .main_slideshow-right {
-        display: flex;
-        justify-content: center;
-        background: linear-gradient(90deg, rgba(145,99,10,1) 50%, rgba(255,255,255,1) 50%);
+        display: none;
+    }
+    .main_slideshow-center {
+        display: none;
+    }
+    .main_slideshow-line {
+        width: 35px;
     }
     .main_slideshow-line {
         width: 50px;
@@ -884,6 +891,9 @@ html {
         display: flex;
         justify-content: center;
         align-content: center;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        display: none !important;
     }
 }
 @media (min-width: 768px) and (max-width: 950px) {
@@ -1127,4 +1137,18 @@ html {
   }
   #overlay ul li a:hover {
     color: #333332;
+  }
+
+
+
+
+
+
+  :root {
+    --swiper-theme-color: #7D4670 !important;
+}
+
+  .swiper {
+    height: 660px;
+    margin: 0 20px;
   }
